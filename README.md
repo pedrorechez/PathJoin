@@ -6,8 +6,9 @@ This implementation is insecure! Do not use it with your credit! This implementa
 
 A careful, full implementation is required before PathJoin can be used in practice. In particular, we require:
 
- - A full implementation of the distributed signature scheme (i.e., management of the shared wallets) in a distributed manner. 
- - A full implementation of the DiceMix protocol to use PathJoin for credit mixing. 
+ - A full implementation of the distributed signature scheme (i.e., management of the shared wallets) in a distributed manner. Current implementation requires to reveal the shares for the shared wallets.
+ - A full implementation of the DiceMix protocol to use PathJoin for credit mixing. Current implementation requires to reveal the owner of each output wallet.
+ - An implementation of mixing XRP. Current implementation assumes that wallets used in PathJoin have already enough XRP.
  
 Still, you can download our prototype if you are interested in testing the PathJoin functionality. 
  
