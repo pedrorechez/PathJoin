@@ -16,7 +16,7 @@
 //  4. Use npm to install all other dependencies required in this script
 //  5. Copy the index.js file into node_modules/elliptic/lib/elliptic/eddsa/ (it contains the implementation of distributed signature algorithm)
 //  6. Fill the fields in the script with the wallets in your experiment.
-//	6. You can run the example with : babel-node test-pathjoin.js
+//	7. You can run the example with : babel-node test-pathjoin.js
 
 
 
